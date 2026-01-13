@@ -1,0 +1,10 @@
+{
+  "name": "qwik-p",
+  "entry": "./src/entry.ssr.tsx",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
