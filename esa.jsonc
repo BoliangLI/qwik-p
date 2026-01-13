@@ -1,0 +1,9 @@
+{
+  "name": "qwik-p",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build.server",
+  "assets": {
+    "directory": "./dist",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
